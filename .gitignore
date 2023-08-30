@@ -1,0 +1,60 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+xcuserstate
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+.DS_Store
+swiftlint.result.*
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# CocoaPods
+#
+Podfile.lock
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/
+
+# sonar run
+.sonar
+.scannerwork/
+SonarReports
+SonarReports/
+
+# build output
+output
+Reports
+Reports/*
+
+#slather report
+slather-report
+slather-report/*
+
+prebuild.log
+
+Pods/Pods.xcodeproj/project.pbxproj
+
+.*/InHouse.*
+.*\.mobileprovision
